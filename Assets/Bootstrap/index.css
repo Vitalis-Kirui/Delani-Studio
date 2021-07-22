@@ -1,0 +1,13 @@
+html{
+    width: 100%;
+}
+
+body{
+    width: 100%;
+}
+
+/* Welcome to Delani header. */
+
+.welcome{
+    background-image: url(/Assets/Backgrounds\ Images/background-image);
+}
