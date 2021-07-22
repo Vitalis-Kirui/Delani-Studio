@@ -39,3 +39,12 @@ body{
     color: white;
     font-size: 12px;
 }
+
+/* about us styles */
+
+.about{
+    padding-top: 40px;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+}
