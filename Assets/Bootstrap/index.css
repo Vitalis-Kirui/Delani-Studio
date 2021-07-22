@@ -8,6 +8,35 @@ body{
 
 /* Welcome to Delani header. */
 
-.welcome{
-    background-image: url(/Assets/Backgrounds\ Images/background-image);
+.header{
+    background-image: url(/Assets/Backgrounds/h_img.jpg);
+    text-align: center;
+    background-size: cover;
+    padding-top: 200px;
 }
+
+#welcome, #to{
+    color: white;
+}
+
+#logo{
+    padding-top: 5px;
+}
+
+#welcome{
+    padding-top: 32px;
+}
+
+#to{
+    padding-top: 30px;
+}
+
+#mouse{
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+.header P{
+    color: white;
+    font-size: 12px;
+}
+
