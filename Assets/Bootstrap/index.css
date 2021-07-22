@@ -48,3 +48,15 @@ body{
     padding-left: 90px;
     padding-right: 90px;
 }
+
+/* services styles */
+
+.services{
+    background-image: url(/Assets/Backgrounds/s_image.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+#services{
+    padding-top: 50px;
+}
