@@ -68,6 +68,9 @@ body{
     padding-top: 40px;
     width: 100%;
 }
+.weDo:hover{
+    cursor: pointer;
+}
 
 .design, .development, .management{
     display: none;

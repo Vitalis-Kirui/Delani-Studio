@@ -22,6 +22,18 @@ $(document).ready(function(){
         $(".management").fadeToggle();
         $("#managementPic").toggle();
     });
+
+    //all
+    $("#what").click(function(){
+
+        $(".management").fadeToggle();
+        $(".development").fadeToggle();
+        $(".design").fadeToggle();
+        $("#designPic").fadeToggle();
+        $("#developmentPic").fadeToggle();
+        $("#managementPic").fadeToggle();
+        
+    });
 });
 
 // Collecting and displaying data from contact us section
@@ -41,3 +53,6 @@ $(document).ready(function(){
     });
 
 });
+
+// javascript form validation
+
