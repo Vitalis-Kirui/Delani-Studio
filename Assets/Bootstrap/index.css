@@ -75,7 +75,9 @@ body{
     text-align: center;
     padding-left: 80px;
     padding-right: 80px;
-
+}
+.portfolioH{
+    padding-bottom: 20px;
 }
 .image{
     width: 100%;
@@ -121,12 +123,12 @@ textarea{
 }
 
 .nameEmail{
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 50px;
 }
 
 .messagePart{
-    padding-top: 25px;
+    padding-top: 20px;
     padding-left: 50px;
 }
 
