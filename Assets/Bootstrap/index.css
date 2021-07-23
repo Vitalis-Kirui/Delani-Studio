@@ -74,3 +74,13 @@ body{
 .px-4{
     padding-top: 10px;
 }
+
+/* portfolio styles */
+
+.portfolio{
+    text-align: center;
+}
+.image{
+    width: 100%;
+    padding: 5%;
+}
