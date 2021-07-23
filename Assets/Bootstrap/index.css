@@ -142,4 +142,9 @@ input{
 /* footer styles */
 footer{
     text-align: center;
+    padding-top: 20px;
+}
+
+footer p{
+    padding-top: 15px;
 }
