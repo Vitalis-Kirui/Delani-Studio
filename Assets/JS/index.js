@@ -56,3 +56,34 @@ $(document).ready(function(){
 
 // javascript form validation
 
+var contactUsValidation = function(){
+
+    var name = document.getElementById("userName").value;    
+    var email = document.getElementById("userEmail").value;
+
+    // validation
+
+    if (name.length < 2 || name == " "){
+        alert("Please enter a valid name! \nName must be filled")
+        return false;
+    };
+
+    atPosition = email.indexOf("@");
+    dotPosition = email.lastIndexOf(".");
+
+    if(email == " "){
+        alert("Email must be filled!")
+        return false;
+    };
+
+    if (atPosition <= 2 || atPosition >= -2){
+        alert("Provide a valid Email address!")
+        return false;
+    };
+
+    if(dotPosition  == -1){
+        alert("Provide a valid email address.")
+        return false;
+    };
+
+};

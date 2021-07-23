@@ -197,11 +197,11 @@
 
             <h3>CONTACT US</h3>
 
-                <form action="" >
+                <form action="" onsubmit="contactUsValidation()" >
 
                     <div class="nameEmail">
-                        <input type="text" class="name" placeholder="Name ...">
-                        <input type="email" class="email" placeholder="Email ...">
+                        <input type="text" class="name" id="userName" placeholder="Name ..." required>
+                        <input type="text" class="email" id="userEmail" placeholder="Email ..." required>
                     </div>
     
                     <div class="messagePart">
