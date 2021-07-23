@@ -36,24 +36,6 @@ $(document).ready(function(){
     });
 });
 
-// Collecting and displaying data from contact us section
-
-$(document).ready(function(){
-
-    $("form").submit(function(autoRefresh){
-
-        var userName = $(".name").val();
-        var userEmail = $(".email").val();
-
-        alert("Hi "+userName+", your message was successfully sent. Thank you for reaching out to us.")
-
-        return true;
-
-        // autoRefresh.preventDefault();
-    });
-
-});
-
 // javascript form validation
 
 var contactUsValidation = function(){
@@ -76,7 +58,7 @@ var contactUsValidation = function(){
         return false;
     };
 
-    if (atPosition <= 2 || atPosition >= -2){
+    if (atPosition <= 2){
         alert("Provide a valid Email address!")
         return false;
     };
@@ -84,6 +66,11 @@ var contactUsValidation = function(){
     if(dotPosition  == -1){
         alert("Provide a valid email address.")
         return false;
-    };
+    }
+
+    else{
+        alert("Hi "+name+", your message was successfully sent. Thank you for reaching out to us.")
+    }
+
 
 };
