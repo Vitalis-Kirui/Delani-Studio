@@ -138,3 +138,8 @@ input{
     padding-top: 20px;
     font-size: 20px;
 }
+
+/* footer styles */
+footer{
+    text-align: center;
+}
