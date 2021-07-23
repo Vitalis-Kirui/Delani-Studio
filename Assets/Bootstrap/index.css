@@ -9,7 +9,7 @@ body{
 /* Welcome to Delani header. */
 
 .header{
-    background-image: url(/Assets/Backgrounds/h_img.jpg);
+    background-image: url(../Backgrounds/h_img.jpg);
     text-align: center;
     background-size: cover;
     padding-top: 200px;
@@ -52,7 +52,7 @@ body{
 /* services styles */
 
 .services{
-    background-image: url(/Assets/Backgrounds/s_image.jpg);
+    background-image: url(../Backgrounds/s_image.jpg);
     background-size: cover;
     text-align: center;
     color: white;
