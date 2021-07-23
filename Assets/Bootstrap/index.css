@@ -73,6 +73,9 @@ body{
 
 .portfolio{
     text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+
 }
 .image{
     width: 100%;
