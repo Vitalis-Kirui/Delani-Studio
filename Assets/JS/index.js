@@ -44,6 +44,7 @@ var contactUsValidation = function(){
 
     var name = document.getElementById("userName").value;    
     var email = document.getElementById("userEmail").value;
+    var sms = document.getElementById("message").value;
 
     // validation
 
@@ -67,6 +68,11 @@ var contactUsValidation = function(){
 
     if(dotPosition  == -1){
         alert("Provide a valid email address.")
+        return false;
+    };
+
+    if(sms == " " || sms < 2){
+        alert("You have not entered any message, or your message is too short.")
         return false;
     }
 
