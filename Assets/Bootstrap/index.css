@@ -78,19 +78,90 @@ body{
 
 /* portfolio styles */
 
-.portfolio{
+.portfolioSection{
+    margin-left:5%;
+    margin-right: 5%;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+#portfolio{
     text-align: center;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
-.portfolioH{
-    padding-bottom: 20px;
+
+.boxAndName{
+    color:white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    height: 95%;
+    width: 95%;
+    border: 4px white solid;
+    position: absolute;
+    display: none;
 }
-.image{
-    width: 100%;
-    padding-bottom: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
+
+.boxAndName h4{
+    padding-top: 40px;
+}
+
+#firstRow{
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+#secondRow{
+    justify-content: space-evenly;
+    padding: 10px;
+}  
+
+.backgroundPic{
+    justify-content: center;
+    background-size: cover;
+    height: 200px;
+    width: 220px;
+    align-items: center;
+}
+
+#work4{
+    background-image: url(../Portfolio/work4.jpg);
+    background-size: cover;
+}
+
+#work3{
+    background-image: url(../Portfolio/work3.jpg);
+    background-size: cover;
+}
+
+#work2{
+    background-image: url(../Portfolio/work2.jpg);
+    background-size: cover;
+}
+
+#work1{
+    background-image: url(../Portfolio/work1.jpg);
+    background-size: cover;
+}
+
+#work5{
+    background-image: url(../Portfolio/work5.jpg);
+    background-size: cover;
+}
+
+#work6{
+    background-image: url(../Portfolio/work6.jpg);
+    background-size: cover;
+}
+
+#work7{
+    background-image: url(../Portfolio/work7.jpg);
+    background-size: cover;
+}
+#work8{
+    background-image: url(../Portfolio/work8.jpg);
+    background-size: cover;
 }
 
 /* contact us styles */
