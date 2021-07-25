@@ -57,6 +57,23 @@ $(document).ready(function(){
         $("#work1BoxName").fadeToggle();
     });
 
+    // second row hovering effect
+
+    $("#work5").hover(function(){
+        $("#work5BoxName").fadeToggle();
+    });
+
+    $("#work6").hover(function(){
+        $("#work6BoxName").fadeToggle();
+    });
+
+    $("#work7").hover(function(){
+        $("#work7BoxName").fadeToggle();
+    });
+
+    $("#work8").hover(function(){
+        $("#work8BoxName").fadeToggle();
+    });
 
 });
 
