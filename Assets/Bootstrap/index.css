@@ -129,39 +129,64 @@ body{
     background-image: url(../Portfolio/work4.jpg);
     background-size: cover;
 }
+#work4:hover{
+    opacity: 0.7;
+}
 
 #work3{
     background-image: url(../Portfolio/work3.jpg);
     background-size: cover;
+}
+#work3:hover{
+    opacity: 0.7;
 }
 
 #work2{
     background-image: url(../Portfolio/work2.jpg);
     background-size: cover;
 }
+#work2:hover{
+    opacity: 0.7;
+}
 
 #work1{
     background-image: url(../Portfolio/work1.jpg);
     background-size: cover;
+}
+#work1:hover{
+    opacity: 0.7;
 }
 
 #work5{
     background-image: url(../Portfolio/work5.jpg);
     background-size: cover;
 }
+#work5:hover{
+    opacity: 0.7;
+}
 
 #work6{
     background-image: url(../Portfolio/work6.jpg);
     background-size: cover;
+}
+#work6:hover{
+    opacity: 0.7;
 }
 
 #work7{
     background-image: url(../Portfolio/work7.jpg);
     background-size: cover;
 }
+#work7:hover{
+    opacity: 0.7;
+}
+
 #work8{
     background-image: url(../Portfolio/work8.jpg);
     background-size: cover;
+}
+#work8:hover{
+    opacity: 0.7;
 }
 
 /* contact us styles */
