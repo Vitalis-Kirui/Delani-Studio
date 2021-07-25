@@ -13,6 +13,7 @@ body{
     text-align: center;
     background-size: cover;
     padding-top: 200px;
+    background-position: center;
 }
 
 #welcome, #to{
@@ -211,6 +212,7 @@ textarea{
     background: transparent;
     border: 1px solid white;
     color: white;
+    width: 75%;
 }
 
 .email{
