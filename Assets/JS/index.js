@@ -37,6 +37,28 @@ $(document).ready(function(){
 });
 // hovering portfolio
 
+$(document).ready(function(){
+
+    // First Row hovering effect
+
+    $("#work4").hover(function(){
+        $("#work4BoxName").fadeToggle();
+    });
+
+    $("#work3").hover(function(){
+        $("#work3BoxName").fadeToggle();
+    });
+
+    $("#work2").hover(function(){
+        $("#work2BoxName").fadeToggle();
+    });
+
+    $("#work1").hover(function(){
+        $("#work1BoxName").fadeToggle();
+    });
+
+
+});
 
 // javascript form validation
 
