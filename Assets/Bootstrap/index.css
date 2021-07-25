@@ -261,3 +261,7 @@ footer{
 footer p{
     padding-top: 15px;
 }
+
+.footerImg:hover{
+    cursor: pointer;
+}
