@@ -8,6 +8,262 @@ body{
 
 /* Welcome to Delani header. */
 
-.welcome{
-    background-image: url(/Assets/Backgrounds\ Images/background-image);
+.header{
+    background-image: url(../Backgrounds/h_img.jpg);
+    text-align: center;
+    background-size: cover;
+    padding-top: 200px;
+    background-position: center;
+}
+
+#welcome, #to{
+    color: white;
+}
+
+#logo{
+    padding-top: 5px;
+}
+
+#welcome{
+    padding-top: 32px;
+}
+
+#to{
+    padding-top: 30px;
+}
+
+#mouse{
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+.header P{
+    color: white;
+    font-size: 12px;
+}
+
+/* about us styles */
+
+.about{
+    padding-top: 40px;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+/* services styles */
+
+.services{
+    background-image: url(../Backgrounds/s_image.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+}
+#services{
+    padding-top: 105px;
+}
+
+/* What we do code */
+.weDo{
+    text-align: center;
+    padding-top: 40px;
+    width: 100%;
+}
+.weDo:hover{
+    cursor: pointer;
+}
+
+.design, .development, .management{
+    display: none;
+}
+
+/* portfolio styles */
+
+.portfolioSection{
+    margin-left:5%;
+    margin-right: 5%;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+#portfolio{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* backgroung images */
+
+#work4{
+    background-image: url(../Portfolio/work4.jpg);
+    background-size: cover;
+}
+#work4:hover{
+    opacity: 0.7;
+}
+
+#work3{
+    background-image: url(../Portfolio/work3.jpg);
+    background-size: cover;
+}
+#work3:hover{
+    opacity: 0.7;
+}
+
+#work2{
+    background-image: url(../Portfolio/work2.jpg);
+    background-size: cover;
+}
+#work2:hover{
+    opacity: 0.7;
+}
+
+#work1{
+    background-image: url(../Portfolio/work1.jpg);
+    background-size: cover;
+}
+#work1:hover{
+    opacity: 0.7;
+}
+
+#work5{
+    background-image: url(../Portfolio/work5.jpg);
+    background-size: cover;
+}
+#work5:hover{
+    opacity: 0.7;
+}
+
+#work6{
+    background-image: url(../Portfolio/work6.jpg);
+    background-size: cover;
+}
+#work6:hover{
+    opacity: 0.7;
+}
+
+#work7{
+    background-image: url(../Portfolio/work7.jpg);
+    background-size: cover;
+}
+#work7:hover{
+    opacity: 0.7;
+}
+
+#work8{
+    background-image: url(../Portfolio/work8.jpg);
+    background-size: cover;
+}
+#work8:hover{
+    opacity: 0.7;
+}
+
+/* Name and the box */
+
+.boxAndName{
+    color:rgb(41, 245, 0);
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    height: 95%;
+    width: 95%;
+    border: 4px white solid;
+    position: absolute;
+    display: none;
+}
+
+.boxAndName h4{
+    padding-top: 40px;
+}
+
+#firstRow{
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+#secondRow{
+    justify-content: space-evenly;
+    padding: 10px;
+}  
+
+/* backgroung images */
+
+.backgroundPic{
+    justify-content: center;
+    background-size: cover;
+    height: 200px;
+    width: 220px;
+    align-items: center;
+}
+
+/* contact us styles */
+
+.contact{
+    background-image: url(../Backgrounds/c_image.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+textarea{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    width: 75%;
+}
+
+.email{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.name{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.send{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.nameEmail{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.messagePart{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+::placeholder{
+    color: white;
+}
+input{
+    width: 37%;
+}
+
+.button{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+/* footer styles */
+footer{
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer p{
+    padding-top: 15px;
+}
+
+.footerImg:hover{
+    cursor: pointer;
 }

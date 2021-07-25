@@ -9,24 +9,261 @@
     <!-- Fonts linking -->
 
     <!-- Bootstrap linking -->
-    <link rel='stylesheet' type='text/css' media='screen' href='/Assets/Bootstrap Files/bootstrap.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='/Assets/Bootstrap Files/index.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./Assets/Bootstrap/bootstrap.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./Assets/Bootstrap/index.css'>
 
     <!-- JS Files linking -->
-    <script src='/Assets/JS Files/jquery-3.6.0.js'></script>
-    <script src='/Assets/JS Files/index.js'></script>
+    <script src='./Assets/JS/jquery-3.6.0.js'></script>
+    <script src='./Assets/JS/index.js'></script>
 
 </head>
 <body>
 
     <div class="container">
 
-        <div class="welcome">
+        <!-- Header code starts here -->
 
-            
+        <div class="header">
+
+            <img id="logo" src="Assets/Logos/logo.png" alt="logo">
+
+            <h1 id="welcome">WELCOME</h1>
+
+            <h1 id="to">TO DELANI STUDIO</h1>
+
+            <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+
+            <img id="mouse" src="Assets/Logos/mouse_click.png" alt="Mouse">
+
 
         </div>
+
+        <!-- Header code ends here -->
+
+        <!-- start of about us code starts here -->
+
+        <div class="about">
+
+            <h3 class="aboutUs">ABOUT US</h3>
+
+            <p>When you work with us, you are part of a team of committed collaborators. 
+                All aspects pf our software development process are intergrated, interactive and agile</p>
+
+            <p>Our approach unifies design, development and product management to create exceptional products</p>
+
+            <p>We start each project by understanding your business goals, the user's needs and the product requirements</p>
+
+            <p>Then we help translate them into effective and elegant solutions.</p>
+
+        </div>
+
+        <!-- end of about us code -->
+
+        <!-- start of services code -->
+
+        <div class="services">
+
+            <h3 id="services">SERVICES</h3>
+
+            <p>Before we sign a contract or write a line of code, our time will spend the neccesary time needed to 
+                understand your product vision.</p>
+
+            <p>The outcome of this scoping session is proposal or high-level statement of work.</p>
+
+            <p>Basing on your recquirements, we can provide a complete offering or just the pieces you need.</p>
+
+        </div>
+
+        <!-- end of services code -->
+
+        <!-- what we do body code -->
         
+        <div class="weDo">
+
+            <h3 id="what">WHAT WE DO</h3>
+
+            <div class="container px-4">
+                <div class="row gx-5">
+
+                  <div class="col">
+                   <div id="design" class="p-3 ">
+                       <img id="designPic" src="Assets/Services/design_icon.png" alt="Design">
+
+                       <h5>DESIGN</h5>
+
+                       <div class="design">
+                        <p>Our design practice offers a full range of services including brand strategy,
+                            interaction and visual design abd user experience testing.</p>
+ 
+                         <p>Throughout your project, our designers create and implement visual design
+                             and workflows, solicit user feedback and work with you to make sure whatget 
+                             built is what you needed.</p>
+
+                       </div>
+                   </div>
+                  </div>
+                  
+                  <div class="col">
+                    <div id="development" class="p-3 ">
+                        <img id="developmentPic" src="Assets/Services/dev_icon.png" alt="Development">
+
+                        <h5>Development</h5>
+
+                        <div class="development">
+                            <p>All engineers are fluent in the latest enterprise, mobile and web development
+                                technologies.</p>
+    
+                            <p>They collaborate with your team to write, and improve code on a daily basis using 
+                                provwn practices such as test-driven development and pair programming.</p>
+                        </div>
+
+                        </div>
+                  </div>
+
+                  <div class="col">
+                    <div id="management" class="p-3 ">
+                        <img id="managementPic" src="Assets/Services/product_icon.png" alt="Product Management">
+
+                        <h5>PRODUCT MANAGEMENT</h5>
+
+                        <div class="management">
+
+                            <p>Planning and development is iteractive. Because we are constantly coding and testing
+                                the products we build are always ready to go live.</p>
+    
+                            <p>This iteractive process allows for changes as business recquirements evolve.</p>
+
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+
+        <!-- end of what we do content -->
+
+        <!-- portfolio body -->
+
+        <div class="portfolioSection">
+
+            <h3 id="portfolio">PORTFOLIO</h3>
+            
+            <div class="row" id="firstRow">
+                
+                <div class="card backgroundPic" id="work4">
+                    <div class="boxAndName" id="work4BoxName">
+                        <h4>GALLERY</h4>
+                    </div>
+                </div>
+
+                <div class="card backgroundPic" id="work3">
+                    <div class="boxAndName" id="work3BoxName">
+                        <h4>ONTARIO</h4>
+                    </div>
+
+                </div>
+
+                <div class="card backgroundPic" id="work2">
+                    <div class="boxAndName" id="work2BoxName">
+                        <h4>F SOCIETY</h4>
+                    </div>
+                </div>
+
+                <div class="card backgroundPic" id="work1">
+                    <div class="boxAndName" id="work1BoxName">
+                        <h4>JIM CARREY</h4>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="row " id="secondRow">
+
+                <div class="card backgroundPic" id="work5">
+                    <div class="boxAndName" id="work5BoxName">
+                        <h4>ELERA</h4>
+                    </div>
+                </div>
+
+                <div class="card backgroundPic" id="work6">
+                    <div class="boxAndName" id="work6BoxName">
+                        <h4>WORDPRESS</h4>
+                    </div>
+                </div>
+
+                <div class="card backgroundPic" id="work7">
+                    <div class="boxAndName" id="work7BoxName">
+                        <h4>BURNED LOGO</h4>
+                    </div>
+                </div>
+
+                <div class="card backgroundPic" id="work8">
+                    <div class="boxAndName" id="work8BoxName">
+                        <h4>GIRAFFE RESTAURANT</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- end of portfolio body -->
+
+        <!-- contact us body -->
+
+        <div class="contact">
+
+            <h3>CONTACT US</h3>
+
+                <form action="" onsubmit="contactUsValidation()" >
+
+                    <div class="nameEmail">
+                        <input type="text" class="name" id="userName" placeholder="Name ...">
+                        <input type="text" class="email" id="userEmail" placeholder="Email ..." >
+                    </div>
+    
+                    <div class="messagePart">
+                        <textarea class="textarea" id="message" placeholder="Your message here..." rows="10" cols="90"></textarea>
+                    </div>
+
+                    <div class="button">
+                        <button class="send">Send Message</button>
+                    </div>
+
+                </form>
+
+        </div>
+
+        <!-- end of contact us body -->
+
+        <!-- footer body -->
+
+        <footer>
+
+            <div class="container overflow-hidden">
+                <div class="row gx-5">
+                  <div class="col">
+                   <div class="p-3 footerImg">
+
+                    <img src="Assets/Socials/twitter.png" alt="Twitter">
+                    <img src="Assets/Socials/dribble.png" alt="Dribble">
+                    <img src="Assets/Socials/facebook.png" alt="Facebook">
+                    <img src="Assets/Socials/g_plus.png" alt="Google">
+                    <img src="Assets/Socials/skype.png" alt="Skype">
+                    <img src="Assets/Socials/stumble_upon.png" alt="Stumble">
+                    <img src="Assets/Socials/behance.png" alt="Behance">
+                    <img src="Assets/Socials/pinterest.png" alt="Pinterest">
+                    <img src="Assets/Socials/flickr.png" alt="Flickr">
+                       
+                   </div>
+                   <p>DELANI STUDIO <br> 2021 </p>
+                  </div>
+                </div>
+              </div>
+
+        </footer>
+
       </div>
     
 </body>
