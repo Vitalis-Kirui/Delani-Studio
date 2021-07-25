@@ -5,22 +5,22 @@ $(document).ready(function(){
     // Design
     $("#design").click(function(){
 
-        $(".design").fadeToggle();
-        $("#designPic").toggle();
+        $(".design").slideToggle();
+        $("#designPic").fadeToggle();
     });
 
     // Development
     $("#development").click(function(){
 
-        $(".development").fadeToggle();
-        $("#developmentPic").toggle();
+        $(".development").slideToggle();
+        $("#developmentPic").fadeToggle();
     });
 
     // Product management
     $("#management").click(function(){
 
-        $(".management").fadeToggle();
-        $("#managementPic").toggle();
+        $(".management").slideToggle();
+        $("#managementPic").fadeToggle();
     });
 
     //all
